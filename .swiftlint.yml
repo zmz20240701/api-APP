@@ -1,0 +1,20 @@
+# .swiftlint.yml
+
+# disabled_rules: # 禁用的规则列表
+#  - line_length # 行长度限制规则
+
+opt_in_rules: # 启用的规则列表
+  - empty_count
+  - force_cast
+
+included: # 包含的文件路径
+  - .
+
+excluded: # 排除的文件路径
+  - Carthage
+  - Pods
+
+# 其他配置项
+line_length:
+  warning: 120
+  error: 200
